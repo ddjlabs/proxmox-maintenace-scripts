@@ -1,0 +1,9 @@
+[Unit]
+Description=Run ProxMox Start Node Script by Doug Jenkins
+
+[Service]
+WorkingDirectory=/opt
+ExecStart=/opt/pve-start-node.sh
+
+[Install]
+WantedBy=multi-user.target
