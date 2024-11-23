@@ -3,7 +3,7 @@
 HOSTNAME=$(hostname)
 
 # Source the common functions
-source pve-common.sh
+source /opt/pve-common.sh
 
 #Shutdown all containers and VMS on the host
 pve_shutdown_all $HOSTNAME

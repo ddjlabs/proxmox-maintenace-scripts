@@ -5,7 +5,7 @@ SLEEPTIME=60
 num_to_keep=3
 
 # Source the common functions
-source pve-common.sh
+source /opt/pve-common.sh
 
 #Perform System Maintenance
 echo "Performing System updates for $HOSTNAME" | append_date_time

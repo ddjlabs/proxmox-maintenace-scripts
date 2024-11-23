@@ -4,7 +4,7 @@ HOSTNAME=$(hostname)
 SLEEPTIME=300
 
 # Source the common functions
-source pve-common.sh
+source /opt/pve-common.sh
 
 # Enable maintenance mode
 pve_enable_cluster_maintenance $HOSTNAME

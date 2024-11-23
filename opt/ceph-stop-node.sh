@@ -3,7 +3,7 @@
 HOSTNAME=$(hostname)
 
 # Source the common functions
-source pve-common.sh
+source /opt/pve-common.sh
 
 # Main script logic for stopping services
 echo "Stopping Ceph on $HOSTNAME" | append_date_time

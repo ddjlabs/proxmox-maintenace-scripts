@@ -4,7 +4,7 @@ HOSTNAME=$(hostname)
 SLEEPTIME=60
 
 # Source the common functions
-source pve-common.sh
+source /opt/pve-common.sh
 
 #First Start Ceph!
 /opt/ceph-start-node.sh
